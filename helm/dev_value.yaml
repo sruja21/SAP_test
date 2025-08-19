@@ -1,0 +1,11 @@
+env:
+  DATABASE_HOST: "DB_devurl"
+  DATABASE_USER: "appuser"
+  DATABASE_PASSWORD: "S3Devdb"
+  DATABASE_NAME: "appdb"
+image:
+  repository: "sap_dev"
+  tag: "dev-latest"
+service:
+  type: ClusterIP
+
